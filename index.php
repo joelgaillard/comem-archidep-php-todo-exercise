@@ -144,9 +144,9 @@ $items = $db->query($selectQuery);
                 <!-- Todo item toggle button -->
                 <button type='submit' name='action' value='toggle' class='btn btn-primary'>
                   <?php if ($item['done']) { ?>
-                    Undo
+                    Annuler
                   <?php } else { ?>
-                    Done
+                    Terminer
                   <?php } ?>
                 </button>
 
