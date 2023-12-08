@@ -106,7 +106,7 @@ $items = $db->query($selectQuery);
       <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container d-flex justify-content-between">
           <a href="#" class="navbar-brand d-flex align-items-center">
-            <strong>TodoList</strong>
+            <strong>Liste de tâches</strong>
           </a>
         </div>
       </div>
@@ -120,10 +120,10 @@ $items = $db->query($selectQuery);
 
         <div class='form-group'>
           <label for='task-title' class='sr-only'>Title</label>
-          <input id='task-title' class='form-control' name='title' type='text' placeholder='Task Title'>
+          <input id='task-title' class='form-control' name='title' type='text' placeholder='Tâche à ajouter'>
         </div>
 
-        <button type='submit' class='btn btn-primary ml-2'>Add</button>
+        <button type='submit' class='btn btn-primary ml-2'>Ajouter</button>
       </form>
 
       <!-- Todo list -->
